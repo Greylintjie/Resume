@@ -12,6 +12,7 @@ h1 {
     padding-top: 1em;
     padding-bottom: 1em;
     font-weight: 300;
+    text-align: center;
 }
 
 h2 {
@@ -93,6 +94,10 @@ ul {
 
 head{
     align-items: center;
+    text-align: center;
+}
+
+#ContactText{
     text-align: center;
 }
 
