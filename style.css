@@ -105,7 +105,7 @@ a:link {
         font-weight: 500;
     }
 
-    #ContactDetails a, #ContactDetails #DOB{
+    #ContactDetails #icontext, #ContactDetails #DOB{
         display: none;
 
     }
