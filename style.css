@@ -13,6 +13,7 @@ h1 {
     padding-bottom: 1em;
     font-weight: 300;
     text-align: center;
+    padding-left: 0.5em;
 }
 
 h2 {
@@ -97,9 +98,7 @@ head{
     text-align: center;
 }
 
-#ContactText{
-    text-align: center;
-}
+
 
 @media only screen and (max-width: 900px) {
     #AboutDesc {
@@ -124,5 +123,8 @@ head{
 
     #ContactDetails i {
         font-size: 2em;
+    }
+    #ContactText{
+        text-align: center;
     }
 }
