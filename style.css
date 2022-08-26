@@ -10,16 +10,21 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-weight: 300;
 }
 
 h2 {
     font-size: 2em;
+    letter-spacing: .5em;
     padding-bottom: 1em;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    font-weight: 100;
+    
 }
 main { 
     display: grid;
@@ -41,16 +46,31 @@ i {
 }
 
 p {
-    margin: .2em auto
+    margin: .2em auto;
+    padding-left: 1em;
 }
 
 hr {
     border: none;
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
     height: 1px;
 }
 
 h1, h2, h3 {
-    font-weight: 100;
     margin-bottom: 0;
 }
+
+h4 {
+    font-weight: 100;
+    letter-spacing: .3em;
+}
+
+#AboutDesc {
+    column-count: 2;
+    column-gap: 3em;
+    column-rule: 1px solid #00000042;
+}
+
+a:link {
+    text-decoration: none;
+  }
