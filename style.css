@@ -55,6 +55,7 @@ main {
 #mainLeft {
     border-right: 1px solid rgb(143, 142, 142);
     padding-right: 20px;
+    margin-left: 15px;
 }
 
 #myHeader {
