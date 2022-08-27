@@ -142,7 +142,10 @@ head{
     #ContactDetails i {
         font-size: 3em;
         color: rgb(78, 78, 78);
+        
     }
+
+    
     #ContactText{
         text-align: center;
         display: inline-block;
