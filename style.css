@@ -7,7 +7,7 @@ body {
 }
 
 #myHeader {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: rgb(255, 255, 255);
@@ -48,7 +48,7 @@ h3 {
 main {
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 18em;
+    margin-top: 1em;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -143,6 +143,7 @@ head{
         font-size: 3em;
         color: rgb(78, 78, 78);
     }
+
     #ContactText{
         text-align: center;
         display: inline-block;
@@ -157,5 +158,4 @@ head{
         line-height: 1.8;
     }
 
-    
 }
