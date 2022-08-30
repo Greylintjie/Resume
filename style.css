@@ -19,6 +19,7 @@ body {
 .icontext {
     margin-left: -7px;
     margin-right: 10px;
+    font-size: 1em;
 }
 
 h1 {
@@ -158,4 +159,13 @@ head{
         line-height: 1.8;
     }
 
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+    }
+    #ContactDetails{
+        
+    }
 }
