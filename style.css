@@ -165,7 +165,19 @@ head{
     main {
         display: block;
     }
+    #skills{
+        column-count: 2;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #ContactDetails i {
+        text-align: center;
+    }
+
     #ContactDetails{
-        
+        margin-top: -50px;
     }
 }
