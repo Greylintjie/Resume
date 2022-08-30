@@ -179,5 +179,11 @@ head{
 
     #ContactDetails{
         margin-top: -50px;
+        text-align: center;
+    }
+
+    #ContactText {
+        text-align: center;
+        margin: auto;
     }
 }
